@@ -4,7 +4,7 @@ class CreateResources < ActiveRecord::Migration
       t.string :name
       t.integer :type
       t.string :url
-      t.integer :class_id
+      t.integer :lesson_id
     end
   end
 end
