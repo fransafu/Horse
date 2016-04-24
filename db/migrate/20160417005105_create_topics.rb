@@ -1,7 +1,7 @@
-class CreateLessons < ActiveRecord::Migration
+class CreateTopics < ActiveRecord::Migration
   def change
-    create_table :lessons do |t|
-        t.integer :num_leasson
+    create_table :topics do |t|
+        t.integer :num_topic
         t.string :name
         t.string :description
         t.integer :course_id
